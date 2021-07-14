@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/LeetCode.iml" filepath="$PROJECT_DIR$/LeetCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/s1/s1.iml" filepath="$PROJECT_DIR$/s1/s1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/s10/s10.iml" filepath="$PROJECT_DIR$/s10/s10.iml" />
       <module fileurl="file://$PROJECT_DIR$/s2/s2.iml" filepath="$PROJECT_DIR$/s2/s2.iml" />
       <module fileurl="file://$PROJECT_DIR$/s3/s3.iml" filepath="$PROJECT_DIR$/s3/s3.iml" />
       <module fileurl="file://$PROJECT_DIR$/s4/s4.iml" filepath="$PROJECT_DIR$/s4/s4.iml" />

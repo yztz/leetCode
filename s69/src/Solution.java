@@ -29,7 +29,7 @@ class Solution {
                 j = f[j][t.charAt(i) - 'a'] + 1;
             }
             if (match) {
-                if (t.length() > res.length() ||  (t.length() == res.length() && t.compareTo(res) < 0)) {
+                if (t.length() > res.length() || (t.length() == res.length() && t.compareTo(res) < 0)) {
                     res = t;
                 }
             }

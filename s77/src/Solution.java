@@ -1,19 +1,21 @@
-<<<<<<< HEAD
-/* https://leetcode-cn.com/problems/power-of-three/  */
-public class Solution {
-
-    public boolean isPowerOfThree(int n) {
-        return n > 0 && 1162261467 % n == 0;
-=======
 /* https://leetcode-cn.com/problems/split-linked-list-in-parts/ */
 public class Solution {
 
     static class ListNode {
         int val;
         ListNode next;
-        ListNode() {}
-        ListNode(int val) { this.val = val; }
-        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+
+        ListNode() {
+        }
+
+        ListNode(int val) {
+            this.val = val;
+        }
+
+        ListNode(int val, ListNode next) {
+            this.val = val;
+            this.next = next;
+        }
     }
 
     public ListNode[] splitListToParts(ListNode head, int k) {
@@ -49,6 +51,5 @@ public class Solution {
         }
 
         return length;
->>>>>>> origin/master
     }
 }

@@ -10,7 +10,9 @@ public class Solution {
         int avg = count / n;
         int answer = 0, sum = 0;
         for (int machine : machines) {
+            // 当前洗衣机中需要转移的数量
             int diff = machine - avg;
+            // 0 - i 洗衣机中需要转移的数量
             sum += diff;
             answer = Math.max(answer, Math.max(Math.abs(sum), diff));
 
